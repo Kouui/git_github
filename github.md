@@ -10,13 +10,15 @@
 ---
 ## the right way to edit a collaborated repository
 
-althought you can edit repository directly in github if you are a collaborator of the repository. it is safer to clone the repository to your local machine and work on a new branch, since if you modify the master branch without notifying other collaborator, others' local master branch maight conflict with the remote one. 
+althought you can edit repository directly in github if you are a collaborator of the repository. it is safer to clone the repository to your local machine and work on a new branch, since if you modify the master branch without notifying other collaborators, others' local master branch maight conflict with the remote one. 
 
 so I sugguest all collaborators should work as follow steps, take repository *hidaproj/test* as an example
 
 1. move to github repository *hidaproj/test*
 
-2. click the green botton *Clone or download* on the right hand side, copy the link, which is https://github.com/hidaproj/test.git
+[https://github.com/hidaproj/test](https://github.com/hidaproj/test)
+
+2. click the green botton *Clone or download* on the right hand side, copy the link
 
 ![#](./figure/1.png)
 
@@ -53,20 +55,21 @@ so I sugguest all collaborators should work as follow steps, take repository *hi
 
 ![#](./figure/7.png)
 
-9. click the green botton *Compare & pull request* on the right hand side, you will see the diffrent between your branch and master branch. 
+9. click the green botton *Compare & pull request* on the right hand side in the figure above, you will see the diffrent between your branch and master branch as shown below. 
 
 ![#](./figure/8.png)
 
 10. click green botton *Create pull request* shown in the figure above to let all collaborators know that a new branch is created. then other collaborators will pull the new branch *test* to their local machine to update their code.
 
-![#](./figure/9.png)
 
 11. if there is no conflicts between your *master* branch, you are able to merge the branches automatically by clicking the green botton *Merge pull request*, leave some message and click *Confirm merge*, then the consequent page is as follows
 
 - if there is conflicts, the merge can only be done by the main collaborator *hidaproj* (in this case). 
 
+![#](./figure/9.png)
+
+
+12. after all collaborators have their local repository updated, click botton *Delte branch* .
+
 ![#](./figure/10.png)
-
-12. after all collaborators have their local repository updated, click botton *Delte branch* in the figure above.
-
         
