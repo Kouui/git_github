@@ -28,7 +28,7 @@ so I sugguest all collaborators should work as follow steps, take repository *hi
         
 ![#](./figure/2.png)
 
-4. cd into the folder test, initialize and move into a new branch called *test*
+4. cd into the folder *test*, initialize and move into a new branch called *test*
 
         $ git checkout -b test
 
@@ -41,7 +41,7 @@ so I sugguest all collaborators should work as follow steps, take repository *hi
         
 ![#](./figure/4.png)
 
-6. since the cloned repository has already been linked to the remote server, you can push your newly created brunch to the remote server, the command test below in the branch name you creatd
+6. since the cloned repository has already been linked to the remote server, you can push your newly created branch to the remote server, the command test below is the branch name you created
 
         $ git push -u origin test
         
