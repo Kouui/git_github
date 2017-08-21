@@ -35,7 +35,7 @@ git doesn't track every file in your directory, you need to add files to be trac
 
         $ git add test.txt
 
-if you want to add all files in your directory to git, `$ git add *`. this will add all your folders (incluidng files in these folders) and files in your directory to be tracked by git. if you want some files or folders not to be tracked but still want to use `$ git add *` command for convenience, you need to set up you .gitignore file 
+if you want to add all files in your directory to git, `$ git add *`. this will add all your folders (incluidng files in these folders) and files in your directory to be tracked by git. if you want some files or folders not to be tracked but still want to use `$ git add *` command for convenience, you need to create and config you .gitignore file 
 
 then to see the changes
 
@@ -45,7 +45,7 @@ you will see a new green line `new file: test.txt`
 
 this is the staging area. changes are recognized by git, but not yet been saved into git. if we want to save the changes, you need to do `$ git commit`. the staging area just tells you if we make a commit what will be saved
 
-to commit changes, or in other words, to save your changing
+to commit changes, or in other words, to save your changes
  
         $ git commit -m 'added a file test.txt'
 
@@ -55,13 +55,13 @@ you now have your first commit. to check commits your have made.
 
 to quit log, just type keyborad `q`
 
-adding a line 'this is a new line' into test.txt, then test.txt is modified. do
+modify test.txt by adding a new line 'this is a new line' into test.txt. do
 
         $ git status
 
-again, you will see red line`modified: test.txt`, red color tells you these changes have been made but not yet be added
+again, you will see red line `modified: test.txt`, red color tells you these changes have been made but not yet been added
 
-to see the changes, you can do 
+to lool into the details of these changes, type 
 
         $ git diff test.txt
 
@@ -156,7 +156,7 @@ at this stage, the change in *develop* caused by merging *new_feature* are **alr
 
 to push your repository to a github repository, you need to create an empty repository in github, then link your local repository to your remote github empty repository. you can do this following the steps shown in the setting page when a new repository is initialized in github.
 
-after you have linked your local repository to your github repository, or ir you are working on a git clone local repository, you can push a particular branch in the repository after you finished your commit. for example if we want to push branch *develop*
+after you have linked your local repository to your github repository, or if you are working on a cloned local repository, you can push your particular branch in the repository after you finished your commit. for example if we want to push branch *develop*
 
         - git push -u origin develop
         
